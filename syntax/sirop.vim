@@ -57,6 +57,7 @@ syn keyword siropBuiltin                StmSuffix
 syn keyword siropBuiltin MulAddCascaded
 
 syn region siropComment start='/\*' end='\*/' contains=siropComment
+syn region siropComment start='//' end='\n' contains=siropComment
 
 hi def link siropBasicKeyword   Keyword
 hi def link siropType           Type
