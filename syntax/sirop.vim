@@ -55,6 +55,7 @@ syn keyword siropBuiltin                StmAccess
 syn keyword siropBuiltin                StmPrefix
 syn keyword siropBuiltin                StmSuffix
 syn keyword siropBuiltin MulAddCascaded
+syn keyword siropBuiltin StmDelay
 
 syn region siropComment start='/\*' end='\*/' contains=siropComment
 syn region siropComment start='//' end='\n' contains=siropComment
