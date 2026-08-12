@@ -18,7 +18,7 @@ syn keyword siropConstant true false
 syn match siropConstant '[0-9_]\+'
 syn match siropConstant '[+-][0-9_]\+'
 
-syn match siropIdent '[a-zA-Z_][a-zA-Z0-9_]*'
+syn match siropIdentifier '[a-zA-Z_][a-zA-Z0-9_]*'
 
 syn keyword siropType bool Stm Vec
 syn match siropType 'u\d\+'
@@ -65,6 +65,6 @@ syn region siropComment start='//' end='\n' contains=siropComment
 hi def link siropBasicKeyword   Keyword
 hi def link siropType           Type
 hi def link siropConstant       Constant
-hi def link siropIdent          Identifier
+hi def link siropIdentifier     Normal
 hi def link siropComment        Comment
 hi def link siropBuiltin        Function
