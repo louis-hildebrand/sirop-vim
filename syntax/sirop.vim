@@ -65,6 +65,6 @@ syn region siropComment start='//' end='\n' contains=siropComment
 hi def link siropBasicKeyword   Keyword
 hi def link siropType           Type
 hi def link siropConstant       Constant
-hi def link siropIdent          Special
+hi def link siropIdent          Identifier
 hi def link siropComment        Comment
-hi def link siropBuiltin        Identifier
+hi def link siropBuiltin        Function
