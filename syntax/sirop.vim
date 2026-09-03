@@ -36,6 +36,7 @@ syn keyword siropBuiltin VecMap         StmMap
 syn keyword siropBuiltin VecMap2        StmMap2
 syn keyword siropBuiltin VecZip         StmZip
 syn keyword siropBuiltin VecReduce      StmReduce
+syn keyword siropBuiltin VecFold        StmFold
 syn keyword siropBuiltin VecAll         StmAll
 syn keyword siropBuiltin VecAny         StmAny
 syn keyword siropBuiltin VecSum         StmSum
@@ -52,11 +53,12 @@ syn keyword siropBuiltin                StmSlide
 syn keyword siropBuiltin                StmSlideStartingWith
 syn keyword siropBuiltin                StmSlide2D
 syn keyword siropBuiltin                StmAccess
-syn keyword siropBuiltin                StmPrefix
-syn keyword siropBuiltin                StmSuffix
-syn keyword siropBuiltin                StmMapDot
+syn keyword siropBuiltin                StmTake
+syn keyword siropBuiltin                StmDrop
+syn keyword siropBuiltin                StmExtendBy
 syn keyword siropBuiltin                StmCascade
-syn keyword siropBuiltin                MulAddCascaded
+syn keyword siropBuiltin                StmMapDotCascaded
+syn keyword siropBuiltin                StmMapDot
 syn keyword siropBuiltin                StmDelay
 
 syn region siropComment start='/\*' end='\*/' contains=siropComment
