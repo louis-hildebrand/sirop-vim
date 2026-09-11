@@ -12,7 +12,7 @@ syn keyword siropBasicKeyword sbuild init next stm ready sdata
 syn keyword siropBasicKeyword undefined
 syn keyword siropBasicKeyword accelerator
 syn keyword siropBasicKeyword const
-syn keyword siropBasicKeyword assert yields ignoring
+syn keyword siropBasicKeyword assert yields ignoring with prefix
 
 syn keyword siropConstant true false
 syn match siropConstant '[0-9_]\+'
@@ -53,8 +53,9 @@ syn keyword siropBuiltin                StmSlide
 syn keyword siropBuiltin                StmSlideStartingWith
 syn keyword siropBuiltin                StmSlide2D
 syn keyword siropBuiltin                StmAccess
-syn keyword siropBuiltin                StmTake
-syn keyword siropBuiltin                StmDrop
+syn keyword siropBuiltin VecTake        StmTake
+syn keyword siropBuiltin VecDrop        StmDrop
+syn keyword siropBuiltin VecTakeRight
 syn keyword siropBuiltin                StmExtendBy
 syn keyword siropBuiltin                StmCascade
 syn keyword siropBuiltin                StmMapDotCascaded
