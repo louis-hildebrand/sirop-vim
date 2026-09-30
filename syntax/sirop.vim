@@ -61,6 +61,7 @@ syn keyword siropBuiltin                StmCascade
 syn keyword siropBuiltin                StmMapDotCascaded
 syn keyword siropBuiltin                StmMapDot
 syn keyword siropBuiltin                StmDelay
+syn keyword siropBuiltin StmVecTranspose
 
 syn region siropComment start='/\*' end='\*/' contains=siropComment
 syn region siropComment start='//' end='\n' contains=siropComment
