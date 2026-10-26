@@ -47,7 +47,7 @@ syn keyword siropBuiltin VecShiftLeft       StmShiftLeft
 syn keyword siropBuiltin VecReverse
 syn keyword siropBuiltin VecTranspose
 syn keyword siropBuiltin VecCst             StmCst
-syn keyword siropBuiltin VecRange           StmRange
+syn keyword siropBuiltin VecCount           StmCount
 syn keyword siropBuiltin                    StmCount2D
 syn keyword siropBuiltin                    StmSlide
 syn keyword siropBuiltin                    StmSlideStartingWith
@@ -56,6 +56,7 @@ syn keyword siropBuiltin                    StmAccess
 syn keyword siropBuiltin VecTake            StmTake
 syn keyword siropBuiltin VecDrop            StmDrop
 syn keyword siropBuiltin VecTakeRight
+syn keyword siropBuiltin VecDropRight
 syn keyword siropBuiltin                    StmExtendBy
 syn keyword siropBuiltin                    StmCascade
 syn keyword siropBuiltin                    StmMapDotCascaded
