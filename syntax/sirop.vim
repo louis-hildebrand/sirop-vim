@@ -55,12 +55,13 @@ syn keyword siropBuiltin                    StmSlide2D
 syn keyword siropBuiltin                    StmAccess
 syn keyword siropBuiltin VecTake            StmTake
 syn keyword siropBuiltin VecDrop            StmDrop
-syn keyword siropBuiltin VecTakeRight
-syn keyword siropBuiltin VecDropRight
+syn keyword siropBuiltin VecTakeRight       StmTakeRight
+syn keyword siropBuiltin VecDropRight       StmDropRight
 syn keyword siropBuiltin                    StmExtendBy
 syn keyword siropBuiltin                    StmCascade
-syn keyword siropBuiltin                    StmMapDotCascaded
 syn keyword siropBuiltin                    StmMapDot
+syn keyword siropBuiltin                    StmMapDotCascaded
+syn keyword siropBuiltin                    StmMapDotTree
 syn keyword siropBuiltin                    StmDelay
 syn keyword siropBuiltin VecStmTranspose    StmVecTranspose
 
