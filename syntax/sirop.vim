@@ -67,10 +67,12 @@ syn keyword siropBuiltin VecStmTranspose    StmVecTranspose
 
 syn region siropComment start='/\*' end='\*/' contains=siropComment
 syn region siropComment start='//' end='\n' contains=siropComment
+syn keyword siropTodoComment TODO contained containedin=siropComment
 
 hi def link siropBasicKeyword   Keyword
 hi def link siropType           Type
 hi def link siropConstant       Constant
 hi def link siropIdentifier     Normal
 hi def link siropComment        Comment
+hi def link siropTodoComment    Todo
 hi def link siropBuiltin        Function
