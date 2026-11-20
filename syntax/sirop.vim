@@ -59,6 +59,7 @@ syn keyword siropBuiltin VecTakeRight       StmTakeRight
 syn keyword siropBuiltin VecDropRight       StmDropRight
 syn keyword siropBuiltin                    StmExtendBy
 syn keyword siropBuiltin                    StmCascade
+syn keyword siropBuiltin                    StmCascade2
 syn keyword siropBuiltin                    StmMapDot
 syn keyword siropBuiltin                    StmMapDotCascaded
 syn keyword siropBuiltin                    StmMapDotTree
