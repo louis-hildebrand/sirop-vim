@@ -62,6 +62,7 @@ syn keyword siropBuiltin                    StmCascade
 syn keyword siropBuiltin                    StmCascade2
 syn keyword siropBuiltin                    StmMapDot
 syn keyword siropBuiltin                    StmMapDotCascaded
+syn keyword siropBuiltin                    StmMapDotCascaded2
 syn keyword siropBuiltin                    StmMapDotTree
 syn keyword siropBuiltin                    StmDelay
 syn keyword siropBuiltin VecStmTranspose    StmVecTranspose
